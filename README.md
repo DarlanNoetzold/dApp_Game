@@ -23,5 +23,20 @@ npm run start
 
 ---
 
+## O jogo:
+
+
+
+![image](https://user-images.githubusercontent.com/41628589/191006980-1ac96599-ac10-4f72-b474-0a84bbdf4989.png)
+
+![image](https://user-images.githubusercontent.com/41628589/191007032-0aa3c809-708b-4c8d-bcc6-76d9b2b407e9.png)
+
+![image](https://user-images.githubusercontent.com/41628589/191006757-346ed243-f23c-4c7b-95ca-589c059d7953.png)
+
+![image](https://user-images.githubusercontent.com/41628589/191007117-3b1ebb68-67f6-4faa-8ffb-1d4d554ea36b.png)
+
+![image](https://user-images.githubusercontent.com/41628589/191007140-bd6023a1-efeb-4bd1-8cc2-118f19ade64e.png)
+
+
 ⭐️ From [DarlanNoetzold](https://github.com/DarlanNoetzold)
 
