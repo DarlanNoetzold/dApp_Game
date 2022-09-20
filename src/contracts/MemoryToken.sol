@@ -4,6 +4,7 @@ import "./ERC721Full.sol";
 
 contract MemoryToken is ERC721Full  {
 
+    //Call the library
     constructor() ERC721Full("Memory Token", "MEMORY") public {
     }
 
