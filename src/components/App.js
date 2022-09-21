@@ -85,8 +85,10 @@ class App extends Component {
     const networkId = await web3.eth.net.getId()
     const networkData = MemoryToken.networks[networkId]
     if(networkData) {
+      //Get the ABI, thats connect with the smartContract
       const abi = MemoryToken.abi
       const address = networkData.address
+      //Create a new Contract with the ABI and address
       const token = new web3.eth.Contract(abi, address)
       this.setState({ token })
       const totalSupply = await token.methods.totalSupply().call()
