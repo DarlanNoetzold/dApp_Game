@@ -134,6 +134,7 @@ class App extends Component {
   }
 
 
+  // here is where occurs the transaction
   checkForMatch = async () => {
     const optionOneId = this.state.cardsChosenId[0]
     const optionTwoId = this.state.cardsChosenId[1]
