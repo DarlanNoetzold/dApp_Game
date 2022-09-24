@@ -4,6 +4,7 @@ import './App.css';
 import MemoryToken from '../abis/MemoryToken.json'
 import brain from '../brain.png'
 
+// calling the images
 const CARD_ARRAY = [
   {
     name: 'fries',
