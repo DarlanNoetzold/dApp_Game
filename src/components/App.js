@@ -166,6 +166,7 @@ class App extends Component {
     }
   }
 
+  // declaration of the state
   constructor(props) {
     super(props)
     this.state = {
@@ -179,7 +180,7 @@ class App extends Component {
       cardsWon: []
     }
   }
-
+  // Initialize here
   render() {
     return (
       <div>
