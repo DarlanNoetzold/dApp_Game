@@ -64,6 +64,7 @@ class App extends Component {
     this.setState({ cardArray: CARD_ARRAY.sort(() => 0.5 - Math.random()) })
   }
 
+  //connect the web3 to the metamask (code give by the Metamask)
   async loadWeb3() {
     if (window.ethereum) {
       window.web3 = new Web3(window.ethereum)
