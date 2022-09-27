@@ -144,6 +144,7 @@ class App extends Component {
       alert('You have clicked the same image!')
     } else if (this.state.cardsChosen[0] === this.state.cardsChosen[1]) {
       alert('You found a match')
+      //This is the most important method
       this.state.token.methods.mint(
         this.state.account,
         window.location.origin + CARD_ARRAY[optionOneId].img.toString()
