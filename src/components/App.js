@@ -4,7 +4,7 @@ import './App.css';
 import MemoryToken from '../abis/MemoryToken.json'
 import brain from '../brain.png'
 
-// calling the images
+// calling the images, that will be ours nft's
 const CARD_ARRAY = [
   {
     name: 'fries',
@@ -58,6 +58,7 @@ const CARD_ARRAY = [
 
 class App extends Component {
 
+  //Initilize the blockchain flow
   async componentWillMount() {
     await this.loadWeb3()
     await this.loadBlockchainData()
