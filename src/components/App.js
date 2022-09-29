@@ -110,6 +110,7 @@ class App extends Component {
     }
   }
 
+  //Logic for the game
   chooseImage = (cardId) => {
     cardId = cardId.toString()
     if(this.state.cardsWon.includes(cardId)) {
@@ -122,6 +123,7 @@ class App extends Component {
     }
   }
 
+  //Logic for the game
   flipCard = async (cardId) => {
     let alreadyChosen = this.state.cardsChosen.length
 
