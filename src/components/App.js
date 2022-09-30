@@ -101,6 +101,7 @@ class App extends Component {
       for (let i = 0; i < balanceOf; i++) {
         let id = await token.methods.tokenOfOwnerByIndex(accounts[0], i).call()
         let tokenURI = await token.methods.tokenURI(id).call()
+        //update the state
         this.setState({
           tokenURIs: [...this.state.tokenURIs, tokenURI]
         })
