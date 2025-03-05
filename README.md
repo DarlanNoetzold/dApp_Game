@@ -1,29 +1,29 @@
 # dApp_Game
 
-## Desenvolvimento:
-* Foi usado javascript e solidity;
-* Foi usado o framework truffle para o desenvolvimento dos smarts contracts;
-* A blockcain local foi configurada e gerenciada com o Ganache;
-* Também foi utilizado o o ERC 721 que é um padrão para NFTs. Basicamente ele apenas descreve todas as funções que um token deve implementar;
-* E o front foi feito em React.
+## Development:
+* Javascript and Solidity were used;
+* The Truffle framework was used to develop smart contracts;
+* The local blockchain was configured and managed with Ganache;
+* ERC 721 was also used, which is a standard for NFTs. Basically, it just describes all the functions that a token must implement;
+* And the front end was made in React.
 
-## Projeto:
-* Projeto de Prova de conceito para o desenvolvimento DApp com manipulação de tokens em uma blockcahin;
-* O projeto é apenas um jogo simples de memório, em que você recebe Eth ao encontrar um par;
-* Para testes foi utilizado uma rede localhost com a wallet metamask.
+## Project:
+* Proof of concept project for DApp development with token manipulation in a blockchain;
+* The project is just a simple memory game, in which you receive Eth when you find a pair;
+* A localhost network with the Metamask wallet was used for testing.
 
-## Como utilizar:
-* Primeiramente é preciso baixar o projeto e rodar o comando:
+## How to use:
+* First, you need to download the project and run the command:
 ```
 npm install
 npm run start
 ```
-* Após, basta configurar a rede no metamask;
-* E rodar as migrations para criar os smarts contracts.
+* Then, just configure the network in Metamask;
+* And run the migrations to create the smart contracts.
 
 ---
 
-## O jogo:
+## The game:
 
 
 
@@ -31,7 +31,7 @@ npm run start
 
 ![image](https://user-images.githubusercontent.com/41628589/191007032-0aa3c809-708b-4c8d-bcc6-76d9b2b407e9.png)
 
-![image](https://user-images.githubusercontent.com/41628589/191006757-346ed243-f23c-4c7b-95ca-589c059d7953.png)
+![image](https://user-images.githubusercontent.com/41 628589/191006757-346ed243-f23c-4c7b-95ca-589c059d7953.png)
 
 ![image](https://user-images.githubusercontent.com/41628589/191007117-3b1ebb68-67f6-4faa-8ffb-1d4d554ea36b.png)
 
@@ -39,4 +39,3 @@ npm run start
 
 
 ⭐️ From [DarlanNoetzold](https://github.com/DarlanNoetzold)
-
